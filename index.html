@@ -4,8 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rohan Korake Porfolio</title>
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
-  <script src="src/main.js"></script>
+  <body>
+    <header>
+      <div class="hamburger" id="hamBurger">
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <div class="lines"></div>
+      </div>
+      <div class="logo-name-container" onclick="location.reload()">
+        <img src="assets/logo.svg" alt="logo" />
+        <div class="name">rohankorake.dev</div>
+      </div>
+      <nav class="overlay" id="navMenu">
+        <div class="nav-option">Home</div>
+        <div class="nav-option">About</div>
+        <div class="nav-option">Skills</div>
+        <div class="nav-option">Project</div>
+        <div class="nav-option">Contact</div>
+      </nav>
+      <div class="theme-cv-download-button">
+        <div class="theme-button">
+          <img src="assets/dark.png" alt="darkbutton" id="darkButton" />
+          <img src="assets/light.png" alt="darkbutton" id="lightButton" />
+        </div>
+        <div class="download-button">
+          <a href="assets/resume.pdf" download class="custom-button">
+            Download
+          </a>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+  <script type="module" src="src/main.js"></script>
 </html>

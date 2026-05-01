@@ -1,0 +1,162 @@
+header {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo-name-container {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-name-container img {
+  width: 4rem;
+}
+
+.logo-name-container .name {
+  font-size: 1.5rem;
+  color: #f4f5f7e4;
+}
+
+nav {
+  width: 40%;
+}
+
+.overlay {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  color: #aeb1b8;
+  text-underline-offset: 0.5rem;
+}
+
+.nav-option:hover {
+  color: #4c64fa;
+  text-decoration: underline;
+}
+
+.theme-cv-download-button {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.theme-button img {
+  width: 2rem;
+}
+
+.theme-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem;
+  background-color: #040a18;
+  border: 0.1rem solid #151c2e;
+  border-radius: 0.3rem;
+}
+
+#darkButton {
+  display: none;
+}
+
+.download-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #navMenu {
+  display: none;
+} */
+
+@media (max-width: 1127px) {
+  .logo-name-container {
+    width: 35%;
+  }
+
+  .logo-name-container img {
+    width: 2rem;
+  }
+
+  .logo-name-container .name {
+    font-size: 1rem;
+  }
+
+  .overlay {
+    font-size: 0.9rem;
+  }
+
+  .theme-button img {
+    width: 1.3rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .logo-name-container {
+    width: 20%;
+  }
+
+  .logo-name-container .name {
+    font-size: 0.9rem;
+  }
+
+  .logo-name-container img {
+    width: 1.5rem;
+  }
+
+  .theme-cv-download-button {
+    width: 80%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .overlay {
+    width: fit-content;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    z-index: 9;
+    position: absolute;
+    left: 0.8rem;
+    top: 2.5rem;
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    flex-direction: column;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+
+  .lines {
+    width: 20px;
+    height: 2px;
+    border-radius: 0.5rem;
+    background-color: wheat;
+  }
+}
+
+@media (max-width: 355px) {
+  .logo-name-container .name {
+    font-size: 0.8rem;
+  }
+}
