@@ -1,15 +1,15 @@
 .custom-button {
   font-size: 1rem;
-  background-color: #4c63faed;
+  background-color: var(--accent-primary);
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
   border: none;
-  color: #e2e2e2;
+  color: var(--text-primary);
   text-decoration: none;
 }
 
 .custom-button:hover {
-  background-color: #4c64fa;
+  background-color: var(--accent-primary-hover);
 }
 
 @media (max-width: 1127px) {

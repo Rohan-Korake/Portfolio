@@ -2,7 +2,7 @@ export function handleNavigation() {
   const hamBurger = document.getElementById("hamBurger");
   const blurPage = document.getElementById("blurPage");
   const navMenu = document.getElementById("navMenu");
-
+  const overlay = document.querySelector(".overlay");
   // handle hamburger click
   hamBurger.addEventListener("click", () => {
     if (navMenu.style.display == "flex") {
@@ -23,25 +23,11 @@ export function handleNavigation() {
 
   // handle navigation click
   navMenu.addEventListener("click", (e) => {
-    switch (e.target.id) {
-      case "homeSection":
-        break;
-
-      case "aboutSection":
-        break;
-
-      case "skillsSection":
-        break;
-
-      case "projectSection":
-        break;
-
-      case "contactSection":
-        break;
-
-      default:
-        hideMenu();
-        break;
+    if (
+      e.target.id == "navMenu" &&
+      getComputedStyle(overlay).flexDirection === "column"
+    ) {
+      hideMenu();
     }
   });
 }
