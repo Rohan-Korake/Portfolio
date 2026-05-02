@@ -16,17 +16,18 @@ export function handleNavigation() {
   blurPage.addEventListener("click", () => {
     if (navMenu.style.display == "flex") {
       hideMenu();
-    } else {
-      showMenu();
     }
   });
 
-  // handle navigation click
+  // handle navigation click only on mobile
   navMenu.addEventListener("click", (e) => {
-    if (
-      e.target.id == "navMenu" &&
-      getComputedStyle(overlay).flexDirection === "column"
-    ) {
+    const isMobile = window.matchMedia("(max-width: 770px)").matches;
+
+    if (!isMobile) {
+      return;
+    }
+
+    if (e.target.id === "navMenu" || e.target.closest("a")) {
       hideMenu();
     }
   });

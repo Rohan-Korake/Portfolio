@@ -5,6 +5,9 @@
   align-items: center;
   flex-direction: row;
   padding: 1rem;
+  background-color: var(--bg-card);
+  border: 0.2rem solid var(--card-border);
+  border-radius: 0.8rem;
 }
 
 .intro-container {
@@ -65,6 +68,7 @@ a {
 }
 
 .socail-link-item {
+  width: 3.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,10 +155,11 @@ a {
 @media (max-width: 770px) {
   .outer-wrapper {
     padding: 0.5rem;
+    flex-direction: column-reverse;
   }
 
   .intro-container {
-    width: 60%;
+    width: 95%;
     gap: 0.2rem;
   }
 
@@ -171,12 +176,12 @@ a {
   }
 
   .title {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .description {
     width: 100%;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--text-tertiary);
   }
 
@@ -188,7 +193,7 @@ a {
   }
 
   .image-container img {
-    border-radius: 1rem;
+    border-radius: 0.7rem;
     width: 7rem;
   }
 
@@ -197,13 +202,14 @@ a {
   }
 
   .socail-link-item {
-    padding: 0.2rem 0.4rem;
+    width: 2.5rem;
     border: 0.1rem solid var(--theme-button-border);
     border-radius: 0.5rem;
   }
 
   .socail-link-item i {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin: 0.3rem;
     color: var(--text-primary);
   }
 }

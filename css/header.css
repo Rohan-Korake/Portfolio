@@ -9,12 +9,13 @@ header {
 }
 
 .logo-name-container {
-  width: 40%;
+  width: 30%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
+  text-align: left;
 }
 
 .logo-name-container img {
@@ -97,7 +98,13 @@ nav {
 }
 
 @media (max-width: 1127px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .logo-name-container {
+    justify-content: flex-start;
     width: 35%;
     gap: 0.3rem;
   }
@@ -106,12 +113,18 @@ nav {
     width: 2rem;
   }
 
+  nav {
+    display: flex;
+  }
+
   .logo-name-container .name {
     font-size: 1rem;
   }
 
   .overlay {
     font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
   }
 
   .theme-button img {
