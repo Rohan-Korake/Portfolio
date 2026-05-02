@@ -1,49 +1,99 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rohan Korake Porfolio</title>
-    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="hamburger" id="hamBurger">
-        <div class="lines"></div>
-        <div class="lines"></div>
-        <div class="lines"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohan Korake Porfolio</title>
+  <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="hamburger" id="hamBurger">
+      <div class="lines"></div>
+      <div class="lines"></div>
+      <div class="lines"></div>
+    </div>
+    <div class="logo-name-container" onclick="location.reload()">
+      <img src="assets/logo.svg" alt="logo" />
+      <div class="name">rohankorake.dev</div>
+    </div>
+    <div class="blur-page" id="blurPage"></div>
+    <nav class="overlay" id="navMenu">
+      <a href="#home">
+        <div class="nav-option">Home</div>
+      </a>
+      <a href="#about">
+        <div class="nav-option">About</div>
+      </a>
+      <a href="#skills">
+        <div class="nav-option">Skills</div>
+      </a>
+      <a href="#project">
+        <div class="nav-option">Project</div>
+      </a>
+      <a href="#contact">
+        <div class="nav-option">Contact</div>
+      </a>
+    </nav>
+    <div class="theme-cv-download-button">
+      <div class="theme-button" id="themeButton">
+        <img src="assets/dark.png" alt="darkbutton" id="darkButton" />
+        <img src="assets/light.png" alt="darkbutton" id="lightButton" />
       </div>
-      <div class="logo-name-container" onclick="location.reload()">
-        <img src="assets/logo.svg" alt="logo" />
-        <div class="name">rohankorake.dev</div>
+      <div class="download-button">
+        <a href="assets/resume.pdf" download class="custom-button">
+          Download
+        </a>
       </div>
-      <div class="blur-page" id="blurPage"></div>
-      <nav class="overlay" id="navMenu">
-        <a href="#home"><div class="nav-option">Home</div></a>
-        <a href="#about"><div class="nav-option">About</div></a>
-        <a href="#skills"><div class="nav-option">Skills</div></a>
-        <a href="#project"><div class="nav-option">Project</div></a>
-        <a href="#contact"><div class="nav-option">Contact</div></a>
-      </nav>
-      <div class="theme-cv-download-button">
-        <div class="theme-button" id="themeButton">
-          <img src="assets/dark.png" alt="darkbutton" id="darkButton" />
-          <img src="assets/light.png" alt="darkbutton" id="lightButton" />
+    </div>
+  </header>
+  <main>
+    <section id="home">
+      <div class="outer-wrapper">
+        <div class="intro-container">
+          <div class="greet">Hello, I'm</div>
+          <div class="name-container" id="typeWritterText">Rohan <span>Korake</span></div>
+          <div class="title">Building Web Applications</div>
+          <div class="description">
+            Computer Engineering student building real-world projects,
+            learning modern technologies, and actively working toward gaining
+            hands-on industry experience.
+          </div>
+          <div class="social-link-container">
+            <a href="https://github.com/Rohan-Korake" target="_blank">
+              <div class="socail-link-item">
+                <i class="fa-brands fa-github"></i>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/rohan-korake/" target="_blank">
+              <div class="socail-link-item">
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </a>
+
+            <a href="mailto:rohannkorake@gmail.com" target="_blank">
+              <div class="socail-link-item">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="download-button">
-          <a href="assets/resume.pdf" download class="custom-button">
-            Download
-          </a>
+        <div class="profile-pic">
+          <div class="image-container">
+            <img src="assets/profilePic.jpeg" alt="profile-pic" />
+          </div>
         </div>
       </div>
-    </header>
-    <main></main>
-    <footer></footer>
-  </body>
-  <script type="module" src="src/main.js"></script>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+<script type="module" src="src/main.js"></script>
+
 </html>
