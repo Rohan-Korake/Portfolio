@@ -1,5 +1,7 @@
 :root {
-  --bg-color: #020617;
+  --bg-color: #020816;
+  --bg-card: #0a0f22;
+  --card-border: #0c1222;
 
   --text-primary: #e2e2e2;
   --text-secondary: #c6cbdc;
@@ -19,6 +21,8 @@
 
 .light {
   --bg-color: #f8fafc;
+  --bg-card: #ffffff;
+  --card-border: #e2e8f0;
 
   --text-primary: #0f172a;
   --text-secondary: #334155;
