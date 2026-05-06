@@ -15,8 +15,8 @@ export function renderContact() {
     contactItem.classList.add("contact-item");
 
     contactItem.innerHTML = `
-    <div class="header-icon"><i class="${item.icon}"></i></div>
-    <div class="header-title">${item.text}</div>
+    <div class="contact-icon"><i class="${item.icon}"></i></div>
+    <div class="contact-text">${item.text}</div>
     `;
     contactDetails.append(contactItem);
   });

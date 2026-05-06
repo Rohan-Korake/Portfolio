@@ -18,7 +18,7 @@ export function renderProject() {
       techStack: [
         { techName: "HTML", logo: "assets/logos/html.png" },
         { techName: "CSS", logo: "assets/logos/css.png" },
-        { techName: "JavaScript", logo: "assets/logos/javaScript.png" },
+        { techName: "JavaScript", logo: "assets/logos/javascript.png" },
       ],
     },
     {
@@ -29,7 +29,7 @@ export function renderProject() {
       techStack: [
         { techName: "HTML", logo: "assets/logos/html.png" },
         { techName: "CSS", logo: "assets/logos/css.png" },
-        { techName: "JavaScript", logo: "assets/logos/javaScript.png" },
+        { techName: "JavaScript", logo: "assets/logos/javascript.png" },
       ],
     },
     {
@@ -40,7 +40,7 @@ export function renderProject() {
       techStack: [
         { techName: "HTML", logo: "assets/logos/html.png" },
         { techName: "CSS", logo: "assets/logos/css.png" },
-        { techName: "JavaScript", logo: "assets/logos/javaScript.png" },
+        { techName: "JavaScript", logo: "assets/logos/javascript.png" },
       ],
     },
     {
@@ -62,7 +62,7 @@ export function renderProject() {
       techStack: [
         { techName: "HTML", logo: "assets/logos/html.png" },
         { techName: "CSS", logo: "assets/logos/css.png" },
-        { techName: "JavaScript", logo: "assets/logos/javaScript.png" },
+        { techName: "JavaScript", logo: "assets/logos/javascript.png" },
       ],
     },
     {
@@ -73,7 +73,7 @@ export function renderProject() {
       techStack: [
         { techName: "HTML", logo: "assets/logos/html.png" },
         { techName: "CSS", logo: "assets/logos/css.png" },
-        { techName: "JavaScript", logo: "assets/logos/javaScript.png" },
+        { techName: "JavaScript", logo: "assets/logos/javascript.png" },
       ],
     },
   ];
