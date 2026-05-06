@@ -13,6 +13,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   padding: 1rem;
   display: flex;
