@@ -1,4 +1,5 @@
 import { handleNavigation } from "./navigation.js";
+import { renderContact } from "./renderContact.js";
 import { renderProject } from "./renderProject.js";
 import { renderSkills } from "./renderSkills.js";
 import { toggleTheme } from "./theme.js";
@@ -10,4 +11,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initTypeWritter();
   renderSkills();
   renderProject();
+  renderContact();
 });
