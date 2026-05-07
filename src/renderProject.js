@@ -76,6 +76,16 @@ export function renderProject() {
         { techName: "JavaScript", logo: "assets/logos/javascript.png" },
       ],
     },
+    {
+      previewImage: "assets/projects/vertixa.png",
+      name: "Vertixa",
+      url: "https://drive.google.com/drive/folders/1lq9vbK_078DHZTuRE_KsqgijHmKOF7cc?usp=drive_link",
+      desc: "A multifunctional Android app featuring tools like a calculator, unit converter, BMI calculator, age calculator, timer, and random number generator.",
+      techStack: [
+        { techName: "Java", logo: "assets/logos/java.png" },
+        { techName: "XML", logo: "assets/logos/xml.png" },
+      ],
+    },
   ];
   const projectContainer = document.getElementById("projectContainer");
 
