@@ -86,6 +86,17 @@ export function renderProject() {
         { techName: "XML", logo: "assets/logos/xml.png" },
       ],
     },
+    {
+      previewImage: "assets/projects/gitlens.png",
+      name: "GitLens",
+      url: "https://gitlens-profile.vercel.app/",
+      desc: "A modern web project focused on API handling, data fetching, dynamic content updates, and interactive UI rendering using JavaScript.",
+      techStack: [
+        { techName: "HTML", logo: "assets/logos/html.png" },
+        { techName: "CSS", logo: "assets/logos/css.png" },
+        { techName: "JavaScript", logo: "assets/logos/javascript.png" },
+      ],
+    },
   ];
   const projectContainer = document.getElementById("projectContainer");
 
