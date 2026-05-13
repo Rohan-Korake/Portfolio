@@ -46,7 +46,7 @@ export function renderProject() {
     {
       previewImage: "assets/projects/taskFlow.png",
       name: "TaskFlow",
-      url: "https://taskFlow.vercel.app/",
+      url: "https://taskFlow-list.vercel.app/",
       desc: "A simple task management web app built with AngularJS, helping users organize, track, and manage daily tasks efficiently.",
       techStack: [
         { techName: "HTML", logo: "assets/logos/html.png" },
