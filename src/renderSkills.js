@@ -28,6 +28,11 @@ export function renderSkills() {
       imgAddress: "assets/logos/javascript.png",
     },
     { name: "XML", imgType: "image", imgAddress: "assets/logos/xml.png" },
+    {
+      name: "Tailwind CSS",
+      imgType: "image",
+      imgAddress: "assets/logos/tailwind.png",
+    },
   ];
 
   const tools = [

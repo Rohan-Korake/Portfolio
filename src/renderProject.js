@@ -97,6 +97,17 @@ export function renderProject() {
         { techName: "JavaScript", logo: "assets/logos/javascript.png" },
       ],
     },
+    {
+      previewImage: "assets/projects/skyCast.png",
+      name: "SkyCast",
+      url: "https://skycastnow.vercel.app/",
+      desc: "Real-time weather app with API integration, dynamic updates, and responsive UI built using Tailwind CSS and JavaScript.",
+      techStack: [
+        { techName: "HTML", logo: "assets/logos/html.png" },
+        { techName: "Tailwind CSS", logo: "assets/logos/tailwind.png" },
+        { techName: "JavaScript", logo: "assets/logos/javascript.png" },
+      ],
+    },
   ];
   const projectContainer = document.getElementById("projectContainer");
 
