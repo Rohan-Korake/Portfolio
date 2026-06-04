@@ -34,7 +34,7 @@ export function renderSkills() {
       imgAddress: "assets/logos/tailwind.webp",
     },
     {
-      name: "Angular JS",
+      name: "AngularJS",
       imgType: "image",
       imgAddress: "assets/logos/angularjs.webp",
     },
@@ -63,11 +63,35 @@ export function renderSkills() {
       imgType: "icon",
       iconClass: " fa-solid fa-caret-up",
     },
+    {
+      name: "Requestly",
+      imgType: "image",
+      imgAddress: "assets/logos/requestly.webp",
+    },
+  ];
+
+  const backend = [
+    {
+      name: "MongoDB",
+      imgType: "image",
+      imgAddress: "assets/logos/mongo.webp",
+    },
+    {
+      name: "Express.js",
+      imgType: "image",
+      imgAddress: "assets/logos/expressjs.webp",
+    },
+    {
+      name: "Node.js",
+      imgType: "image",
+      imgAddress: "assets/logos/nodejs.webp",
+    },
   ];
 
   render(programming, "programmingSkills");
   render(webDev, "webDevSkills");
   render(tools, "devToolSkills");
+  render(backend, "backendDevSkills");
 
   function render(data, containerId) {
     const container = document.getElementById(containerId);

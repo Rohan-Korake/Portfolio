@@ -13,7 +13,7 @@ export function renderProject() {
     {
       previewImage: "assets/projects/compKit.webp",
       name: "CompKit",
-      url: "https://smartexam.vercel.app/",
+      url: "https://compkit.vercel.app/",
       desc: "A lightweight UI component kit built with HTML, CSS, and minimal JavaScript featuring reusable elements like buttons, cards, loaders, and badges.",
       techStack: [
         { techName: "HTML", logo: "assets/logos/html.webp" },
@@ -68,7 +68,7 @@ export function renderProject() {
     {
       previewImage: "assets/projects/lampLogin.webp",
       name: "Lamp Login Auth",
-      url: "https://lamplogin-auth.vercel.app/",
+      url: "https://github.com/Rohan-Korake/Lamp-Login-Authentication",
       desc: "An interactive authentication UI with animations, featuring login, signup, and password reset, connected to a backend for secure management.",
       techStack: [
         { techName: "HTML", logo: "assets/logos/html.webp" },
@@ -106,6 +106,17 @@ export function renderProject() {
         { techName: "HTML", logo: "assets/logos/html.webp" },
         { techName: "Tailwind CSS", logo: "assets/logos/tailwind.webp" },
         { techName: "JavaScript", logo: "assets/logos/javascript.webp" },
+      ],
+    },
+    {
+      previewImage: "assets/projects/backendFoundation.webp",
+      name: "Backend Foundation",
+      url: "https://github.com/Rohan-Korake/backend-foundation",
+      desc: "Backend learning repository for practicing server-side concepts like APIs, authentication, and database integration.",
+      techStack: [
+        { techName: "Mongo DB", logo: "assets/logos/mongo.webp" },
+        { techName: "Express JS", logo: "assets/logos/expressjs.webp" },
+        { techName: "Nodejs", logo: "assets/logos/nodejs.webp" },
       ],
     },
   ];
