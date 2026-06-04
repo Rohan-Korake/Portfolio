@@ -1,37 +1,42 @@
 export function renderSkills() {
   const programming = [
-    { name: "C", imgType: "image", imgAddress: "assets/logos/c.png" },
+    { name: "C", imgType: "image", imgAddress: "assets/logos/c.webp" },
     {
       name: "C++",
       imgType: "image",
-      imgAddress: "assets/logos/c-plus-plus.png",
+      imgAddress: "assets/logos/c-plus-plus.webp",
     },
-    { name: "Java", imgType: "image", imgAddress: "assets/logos/java.png" },
+    { name: "Java", imgType: "image", imgAddress: "assets/logos/java.webp" },
     {
       name: "Python",
       imgType: "image",
-      imgAddress: "assets/logos/python.png",
+      imgAddress: "assets/logos/python.webp",
     },
     {
       name: "Assembly",
       imgType: "image",
-      imgAddress: "assets/logos/assembly.png",
+      imgAddress: "assets/logos/assembly.webp",
     },
   ];
 
   const webDev = [
-    { name: "HTML", imgType: "image", imgAddress: "assets/logos/html.png" },
-    { name: "CSS", imgType: "image", imgAddress: "assets/logos/css.png" },
+    { name: "HTML", imgType: "image", imgAddress: "assets/logos/html.webp" },
+    { name: "CSS", imgType: "image", imgAddress: "assets/logos/css.webp" },
     {
       name: "JavaScript",
       imgType: "image",
-      imgAddress: "assets/logos/javascript.png",
+      imgAddress: "assets/logos/javascript.webp",
     },
-    { name: "XML", imgType: "image", imgAddress: "assets/logos/xml.png" },
+    { name: "XML", imgType: "image", imgAddress: "assets/logos/xml.webp" },
     {
       name: "Tailwind CSS",
       imgType: "image",
-      imgAddress: "assets/logos/tailwind.png",
+      imgAddress: "assets/logos/tailwind.webp",
+    },
+    {
+      name: "Angular JS",
+      imgType: "image",
+      imgAddress: "assets/logos/angularjs.webp",
     },
   ];
 
@@ -39,18 +44,18 @@ export function renderSkills() {
     {
       name: "Figma",
       imgType: "image",
-      imgAddress: "assets/logos/figma.png",
+      imgAddress: "assets/logos/figma.webp",
     },
-    { name: "Git", imgType: "image", imgAddress: "assets/logos/git.png" },
+    { name: "Git", imgType: "image", imgAddress: "assets/logos/git.webp" },
     {
       name: "Android Studio",
       imgType: "image",
-      imgAddress: "assets/logos/android-studio.png",
+      imgAddress: "assets/logos/android-studio.webp",
     },
     {
       name: "VS Code",
       imgType: "image",
-      imgAddress: "assets/logos/vscode.png",
+      imgAddress: "assets/logos/vscode.webp",
     },
     { name: "GitHub", imgType: "icon", iconClass: "fa-brands fa-github" },
     {
