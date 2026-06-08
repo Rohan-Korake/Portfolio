@@ -114,9 +114,20 @@ export function renderProject() {
       url: "https://github.com/Rohan-Korake/backend-foundation",
       desc: "Backend learning repository for practicing server-side concepts like APIs, authentication, and database integration.",
       techStack: [
-        { techName: "Mongo DB", logo: "assets/logos/mongo.webp" },
-        { techName: "Express JS", logo: "assets/logos/expressjs.webp" },
+        { techName: "MongoDB", logo: "assets/logos/mongo.webp" },
+        { techName: "Expressjs", logo: "assets/logos/expressjs.webp" },
         { techName: "Nodejs", logo: "assets/logos/nodejs.webp" },
+      ],
+    },
+    {
+      previewImage: "assets/projects/designHub.webp",
+      name: "DesignHub",
+      url: "https://designhub-ui.vercel.app/",
+      desc: "UI/UX inspiration platform built to showcase and explore modern interface designs, interactive components, and user-centric layouts.",
+      techStack: [
+        { techName: "HTML", logo: "assets/logos/html.webp" },
+        { techName: "Tailwind CSS", logo: "assets/logos/tailwind.webp" },
+        { techName: "JavaScript", logo: "assets/logos/javascript.webp" },
       ],
     },
   ];
