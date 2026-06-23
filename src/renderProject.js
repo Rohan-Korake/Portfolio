@@ -130,6 +130,17 @@ export function renderProject() {
         { techName: "JavaScript", logo: "assets/logos/javascript.webp" },
       ],
     },
+    {
+      previewImage: "assets/projects/markify.webp",
+      name: "Markify",
+      url: "https://trymarkify.vercel.app/",
+      desc: "Smart marks distribution calculator that generates realistic experiment marks to achieve a target average.",
+      techStack: [
+        { techName: "HTML", logo: "assets/logos/html.webp" },
+        { techName: "Tailwind CSS", logo: "assets/logos/tailwind.webp" },
+        { techName: "JavaScript", logo: "assets/logos/javascript.webp" },
+      ],
+    },
   ];
   const projectContainer = document.getElementById("projectContainer");
 
