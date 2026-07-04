@@ -141,6 +141,18 @@ export function renderProject() {
         { techName: "JavaScript", logo: "assets/logos/javascript.webp" },
       ],
     },
+    {
+      previewImage: "assets/projects/gradientKit.webp",
+      name: "Gradient kit",
+      url: "https://gradient-kit.vercel.app/",
+      desc: "Modern gradient generator for creating, customizing, and exporting beautiful gradient color combinations.",
+      techStack: [
+        { techName: "React", logo: "assets/logos/react.webp" },
+        { techName: "Tailwind CSS", logo: "assets/logos/tailwind.webp" },
+        { techName: "JavaScript", logo: "assets/logos/javascript.webp" },
+        { techName: "Vite", logo: "assets/logos/vite.webp" },
+      ],
+    },
   ];
   const projectContainer = document.getElementById("projectContainer");
 

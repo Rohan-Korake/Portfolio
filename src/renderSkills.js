@@ -38,6 +38,11 @@ export function renderSkills() {
       imgType: "image",
       imgAddress: "assets/logos/angularjs.webp",
     },
+    {
+      name: "React",
+      imgType: "image",
+      imgAddress: "assets/logos/react.webp",
+    },
   ];
 
   const tools = [
@@ -67,6 +72,11 @@ export function renderSkills() {
       name: "Requestly",
       imgType: "image",
       imgAddress: "assets/logos/requestly.webp",
+    },
+    {
+      name: "Vite",
+      imgType: "image",
+      imgAddress: "assets/logos/vite.webp",
     },
   ];
 
