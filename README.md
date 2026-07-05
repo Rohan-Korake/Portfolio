@@ -1,4 +1,9 @@
-# Developer Portfolio
+<p align="center">
+  <img src="./assets/logo.svg" alt="Logo" width="120" />
+</p>
+<h1 align="center">
+ Developer Portfolio
+</h1>
 
 A modern and responsive developer portfolio designed to showcase my projects, technical skills, and creative UI development.
 
