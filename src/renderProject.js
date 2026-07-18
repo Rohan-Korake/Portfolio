@@ -143,9 +143,21 @@ export function renderProject() {
     },
     {
       previewImage: "assets/projects/gradientKit.webp",
-      name: "Gradient kit",
+      name: "Gradientkit",
       url: "https://gradient-kit.vercel.app/",
       desc: "Modern gradient generator for creating, customizing, and exporting beautiful gradient color combinations.",
+      techStack: [
+        { techName: "React", logo: "assets/logos/react.webp" },
+        { techName: "Tailwind CSS", logo: "assets/logos/tailwind.webp" },
+        { techName: "JavaScript", logo: "assets/logos/javascript.webp" },
+        { techName: "Vite", logo: "assets/logos/vite.webp" },
+      ],
+    },
+    {
+      previewImage: "assets/projects/mychoice.webp",
+      name: "MyChoice",
+      url: "https://mychoice-ecommerce.vercel.app/",
+      desc: "A custom React, Vite, and PWA shop built for showcasing and selling unique handmade craft items with a fast, modern UI.",
       techStack: [
         { techName: "React", logo: "assets/logos/react.webp" },
         { techName: "Tailwind CSS", logo: "assets/logos/tailwind.webp" },
