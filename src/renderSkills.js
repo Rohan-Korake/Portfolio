@@ -27,6 +27,11 @@ export function renderSkills() {
       imgType: "image",
       imgAddress: "assets/logos/javascript.webp",
     },
+    {
+      name: "TypeScript",
+      imgType: "image",
+      imgAddress: "assets/logos/typescript.webp",
+    },
     { name: "XML", imgType: "image", imgAddress: "assets/logos/xml.webp" },
     {
       name: "Tailwind CSS",

@@ -165,6 +165,18 @@ export function renderProject() {
         { techName: "Vite", logo: "assets/logos/vite.webp" },
       ],
     },
+    {
+      previewImage: "assets/projects/luckydice.webp",
+      name: "LuckyDice",
+      url: "https://try-luckydice.vercel.app/",
+      desc: "An interactive dice app built to practice TypeScript, featuring animated dice rolling and real-time calculations.",
+      techStack: [
+        { techName: "React", logo: "assets/logos/react.webp" },
+        { techName: "Tailwind CSS", logo: "assets/logos/tailwind.webp" },
+        { techName: "TypeScript", logo: "assets/logos/typescript.webp" },
+        { techName: "Vite", logo: "assets/logos/vite.webp" },
+      ],
+    },
   ];
   const projectContainer = document.getElementById("projectContainer");
 
