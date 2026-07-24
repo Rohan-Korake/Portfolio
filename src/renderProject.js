@@ -166,7 +166,7 @@ export function renderProject() {
       ],
     },
     {
-      previewImage: "assets/projects/luckydice.webp",
+      previewImage: "assets/projects/luckyDice.webp",
       name: "LuckyDice",
       url: "https://try-luckydice.vercel.app/",
       desc: "An interactive dice app built to practice TypeScript, featuring animated dice rolling and real-time calculations.",
